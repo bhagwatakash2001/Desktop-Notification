@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  
+}
+
+.toast{
+    background-color: dodgerblue;   
+    padding: 1rem;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+
+
+
+#btn{
+
+    background-color: tomato;
+    color: white;
+    padding: 4px;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+#btn:hover{
+    box-shadow:  0 8px 16px 1px rgba(255, 17, 0, 0.7);
+    background-color: tomato;
+    font-size: 1.7;
+}
